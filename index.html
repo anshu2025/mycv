@@ -5,120 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
 </head>
-<style>
-    
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background:linear-gradient(to right, rgb(230, 110, 66),rgb(236, 236, 39));
-}
-
-.container {
-    max-width: 800px;
-    margin: 40px auto;
-    padding: 20px;
-    background:rgb(171, 233, 155);
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 20px;
-    background:radial-gradient(circle,rgb(47, 161, 243),rgb(39, 226, 107));
-    border-radius: 10px 10px 0 0;
-}
-
-.profile-picture {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin-right: 20px;
-    box-shadow: 0 0 9em rgb(204, 16, 251);;
-}
-
-.profile-picture img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.name-and-title {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-}
-
-.name-and-title h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
-    color: #4210e8;
-}
-
-.name-and-title p {
-    font-size: 18px;
-    color: #2e4fe0;
-}
-
-.summary, .experience, .education, .skills {
-    padding: 20px;
-}
-
-h2 {
-    font-size: 18px;
-    margin-bottom: 10px;
-    color: #333;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-li {
-    margin-bottom: 20px;
-}
-
-li h3 {
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: #666;
-}
-
-li p {
-    font-size: 14px;
-    color: #0e19e3;
-}
-
-/* Responsive design */
-
-@media only screen and (max-width: 768px) {
-    .container {
-        margin: 20px auto;
-        padding: 10px;
-    }
-    .header {
-        flex-direction: column;
-        padding: 10px;
-    }
-    .profile-picture {
-        margin-bottom: 10px;
-    }
-}
-
-@media only screen and (max-width: 480px) {
-    .container {
-        margin: 10px auto;
-        padding: 5px;
-    }
-}
-</style>
+<link rel="stylesheet" href="style.css">
 <body>
     <div class="container">
         <div class="header">
@@ -157,9 +44,23 @@ li p {
         <div class="skills">
             <h2>Skills</h2>
             <ul>
-                <li>Programming languages: Java, Python, JavaScript,C/C++</li>
-                <li>Development:Html Css Js</li>
+                <li>Programming languages: Java, Python, JavaScript, C/C++</li>
+                <li>Development: HTML, CSS, JS</li>
                 <li>Databases: MySQL</li>
+            </ul>
+        </div>
+        <div class="projects">
+            <h2>Other Plateform info</h2>
+            <ul>
+                <li><a href="https://github.com/anshu2025" target="_blank">GitHub Profile</a></li>
+                <li><a href="https://www.linkedin.com/in/utkarsh-pateriya-2b071a322/" target="_blank">LinkedIn Projects</a></li>
+                
+            </ul>
+            <h2>Code Links</h2>
+            <ul>
+                <li><a href=" https://anshu2025.github.io/Weather/" target="_blank">Weather app</a></li>
+                <li><a href=" https://anshu2025.github.io/Note-app/" target="_blank">Note-app</a></li>
+                
             </ul>
         </div>
     </div>
